@@ -1,4 +1,60 @@
-#container{
-    background-color: black;
-    color: aliceblue;
+#container {
+  background-color: #0b0b0b;
+  width: 1440px;
+  height: 8783px;
+  top: -4392px;
+  left: -721px;
+  color:white;
+}
+.hero {
+  width: 1440px;
+  height: 960px;
+}
+.about-us {
+  width: 1440px;
+  height: 534px;
+  top: 1110px;
+}
+.product {
+  width: 1440px;
+  height: 591px;
+  top: 1759px;
+  padding: 0px 0px 0.05px 0px;
+}
+.shop {
+  width: 1440px;
+  height: 760px;
+  top: 2465px;
+}
+.gallery {
+  width: 1437px;
+  height: 1634px;
+  top: 3340px;
+  left: 2px;
+}
+.beauty {
+  width: 1440px;
+  height: 512px;
+  top: 5089px;
+}
+.reviews {
+  width: 1440px;
+  height: 875px;
+  top: 5716px;
+}
+.meet-us {
+  width: 1440px;
+  height: 847px;
+  top: 6706px;
+}
+.subscribe {
+  width: 1440px;
+  height: 400px;
+  top: 7668px;
+  /* padding: 72px 73px 47px 73px; */
+}
+.footer {
+  width: 1440px;
+  height: 565px;
+  top: 8218px;
 }
