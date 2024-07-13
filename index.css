@@ -1,60 +1,779 @@
-#container {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
   background-color: #0b0b0b;
-  width: 1440px;
-  height: 8783px;
-  top: -4392px;
-  left: -721px;
-  color:white;
+  color: white;
 }
+
+.container {
+  width: 1600px;
+  height: 8783px;
+  margin: 0 auto;
+  background: #0b0b0b;
+}
+
+/* Hero Section */
 .hero {
   width: 1440px;
   height: 960px;
+  background-image: url("/Images/Bg-Pic.svg");
+  background-size: cover;
+  position: relative;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 73px;
+  padding: 27px 59px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-image: url("/Images/frame.png");
+  width: 530px;
+  height: 64px;
+  align-items: center;
+  gap: 30px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.signup {
+  display: flex;
+  gap: 29px;
+}
+
+.signup div {
+  display: flex;
+  align-items: center;
+  background-image: url("/Images/Polygon7.svg");
+  width: 121px;
+  height: 64px;
+  gap: 10px;
+}
+
+.signup img {
+  width: 24px;
+  height: 24px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 64px;
+  margin-top: 50px;
+  font-family: Elephant;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 78.53px;
+  color: #ffc453;
+}
+
+.hero-pic {
+  position: absolute;
+  top: 41px;
+  left: 307px;
+  width: 546px;
+  height: 758px;
+  text-align: center;
+}
+
+.hero-pic img {
+  align-items: center;
+}
+
+.hero-pic button {
+  width: 107px;
+  height: 108px;
+  margin: 20px;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scroll-indicator img {
+  width: 53px;
+  height: 67px;
+  bottom: 20px;
+}
+
+/* About Us Section */
 .about-us {
   width: 1440px;
   height: 534px;
-  top: 1110px;
+  padding: 50px;
 }
-.product {
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 71px;
+}
+
+.title {
+  width: Fixed (400px) px;
+  height: Fixed (132px) px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title img {
+  width: 130px;
+  height: 150px;
+}
+
+.title h2 {
+  font-family: Lora;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 51.2px;
+  text-align: left;
+  color: #fff9c0;
+}
+
+.line {
+  width: 849px;
+  height: 0px;
+  gap: 0px;
+  /* border: 4px 0px 0px 0px; */
+
+  /* width: 849px; */
+  /* height: 4px; */
+  /* background-color: white; */
+  background-image: url("/Images/line.png");
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #ffba41 15.79%, #0b0b0b 100%);
+}
+
+.text-about {
+  width: 480px;
+  height: 228px;
+  margin-top: 17px;
+  margin-left: 85px;
+}
+
+.text-about p {
+  width: 480px;
+  height: 150px;
+  top: 176px;
+  left: 85px;
+  color: #fff9c0;
+  font-size: 18px;
+  line-height: 36px;
+  /* text-align: justify; */
+}
+
+.about-signup {
+  display: flex;
+  gap: 29px;
+}
+
+.about-signup div {
+  display: flex;
+  align-items: center;
+  background-image: url("/Images/Polygon7.svg");
+  width: 121px;
+  height: 64px;
+  gap: 10px;
+}
+
+.about-signup img {
+  width: 24px;
+  height: 24px;
+}
+.about-us-main {
+  display: flex;
+  width: 847px;
+  height: 468px;
+}
+
+.about-pic {
+  width: 603.57px;
+  height: 268.83px;
+  background-image: url("/Images/Cover.svg");
+  position: absolute;
+  margin-bottom: 176px;
+  margin-right: 85px;
+}
+
+.about-pic img {
+  width: 282px;
+  height: 521px;
+  position: relative;
+  bottom: 170px;
+  left: 150px;
+}
+
+/* Product Section */
+.products-section {
   width: 1440px;
   height: 591px;
   top: 1759px;
   padding: 0px 0px 0.05px 0px;
 }
-.shop {
+
+.products-section .divider {
+  /* width: 1440px;
+  height: auto;
+  padding: 0px 0px 0px 62px;
+  gap: 71px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 71px;
+}
+
+.products-section .divider .title {
+  /* width: 400px;
+  height: 132px;
+  gap: 0px; */
+  width: Fixed (400px) px;
+  height: Fixed (132px) px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.products-section .divider .title .bee-image {
+  width: 106px;
+  height: 88.93px;
+  /* transform: rotate(-32.92deg); */
+}
+
+.products-section .divider .title h2 {
+  /* width: 172px;
+  height: 51px;
+  margin: 0; */
+  font-family: Lora;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 51.2px;
+  text-align: left;
+  color: #fff9c0;
+}
+
+.products-section .divider .line {
+  width: 849px;
+  height: 0px;
+  background-image: url("/Images/line.png");
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #ffba41 15.79%, #0b0b0b 100%);
+}
+
+.products-section .products .product-frame-1 {
+  width: 836px;
+  height: 390.95px;
+  margin-top: 80px;
+  margin-left: 302px;
+  display: flex;
+  justify-content: space-between;
+}
+.products-section .products .product-frame-2{
+  width: 636px;
+  height: 390.95px;
+  margin-top: -202px;
+  margin-left: 402px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.products-section .product-frame {
+  width: 209.21px;
+  height: 210.21px;
+  gap: 0px;
+  /* border: 1.78px solid; */
+  position: relative;
+}
+
+.products-section .product-frame .frame24 {
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  align-items: center;
+  top: 5px;
+  left: 0px;
+  padding: 29.21px 29.67px 28.8px 30.14px;
+}
+
+.products-section .product-frame .frame24 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* shop section */
+.shop-section {
   width: 1440px;
   height: 760px;
-  top: 2465px;
+  margin-top: 100px;
+  gap: 0px;
 }
-.gallery {
-  width: 1437px;
-  height: 1634px;
-  top: 3340px;
-  left: 2px;
+
+.shop-section .divider {
+  /* width: 1440px;
+  height: auto;
+  padding: 0px 0px 0px 62px;
+  gap: 71px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 71px;
 }
-.beauty {
+
+.shop-section .divider .title {
+  /* width: 400px;
+  height: 132px;
+  gap: 0px; */
+  width: Fixed (400px) px;
+  height: Fixed (132px) px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.shop-section .divider .title .bee-image {
+  width: 106px;
+  height: 88.93px;
+}
+
+.shop-section .divider .title h2 {
+  /* width: 172px;
+  height: 51px;
+  margin: 0; */
+  font-family: Lora;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 51.2px;
+  text-align: left;
+  color: #fff9c0;
+}
+
+.shop-section .divider .line {
+  width: 849px;
+  height: 0px;
+  background-image: url("/Images/line.png");
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #ffba41 15.79%, #0b0b0b 100%);
+}
+
+.shop-section .shopframe {
   width: 1440px;
-  height: 512px;
-  top: 5089px;
+  height: auto;
+  padding: 66px 0px;
+  gap: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.reviews {
-  width: 1440px;
-  height: 875px;
-  top: 5716px;
+
+.shop-section .shopframe .pic-shop {
+  width: 316px;
+  height: 332px;
+  padding: 26px 31px;
 }
-.meet-us {
-  width: 1440px;
-  height: 847px;
-  top: 6706px;
+.shopframe-submain{
+  display:flex;
+  justify-content: space-between;
+  gap:20px
 }
-.subscribe {
-  width: 1440px;
-  height: 400px;
-  top: 7668px;
-  /* padding: 72px 73px 47px 73px; */
+.shop-section .shopframe .shopping-card {
+  width: 988px;
+  height: 392px;
+  gap: 0px;
+  border-radius: 50px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.footer {
+
+.shop-section .shopping-card img {
+  width: 254px;
+  height: 309px;
+}
+
+.shop-section .shopping-card .description {
+  width: 614px;
+  height: 185px;
+  gap: 0px;
+}
+
+.shop-section .shopping-card .description p {
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: justify;
+  margin: 0;
+}
+.shop-section .shopping-card .description p span{
+  color:#ffc453
+}
+.shop-section .shopping-card .size-section {
+  width: 141px;
+  height: 109.25px;
+  gap: 0px;
+}
+
+.shop-section .shopping-card .size-section h3 {
+  width: 45px;
+  height: 36px;
+  margin: 0;
+  color:#ffc453
+}
+
+.shop-section .shopping-card .size-section img {
+  width: 141px;
+  height: 61.25px;
+  margin-top: 10px;
+}
+
+.shop-section .shopping-card .divider-vertical {
+  width: 0px;
+  height: 98.5px;
+  border: 2px solid;
+  color:#ffc453
+}
+
+.shop-section .shopping-card .info img {
+  width: 275px;
+  height: 109px;
+  padding: 0px 23px 0px 0px;
+}
+.shopframe-submain .shop-button img{
+  width: 144px;
+  height: 64px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px 28px 0px 28px;
+}
+.shop-section .shopping-card .shop-button {
+  width: 144px;
+  height: 64px;
+  padding: 0px 28px;
+
+}
+
+.shop-section .slider {
+  width: 165px;
+  height: 36px;
+  top: 724px;
+  left: 637px;
+}
+
+.shop-section .slider .slider-dots {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: Fixed (165px)px;
+height: Fixed (36px)px;
+/* margin-top: 724px; */
+margin-left: 637px;
+gap: 0px;
+
+}
+
+/* Gallery Section */
+.gallery-section {
   width: 1440px;
-  height: 565px;
-  top: 8218px;
+  height: auto;
+  padding: 0px 0px 0px 62px;
+  gap: 71px;
+}
+
+.gallery-section .divider {
+  width: 1440px;
+  height: auto;
+  padding: 0px 0px 0px 62px;
+  gap: 71px;
+}
+
+.gallery-section .divider .title {
+  width: 400px;
+  height: 132px;
+  gap: 0px;
+}
+
+.gallery-section .divider .title .bee-image {
+  width: 106px;
+  height: 88.93px;
+}
+
+.gallery-section .divider .title h2 {
+  width: 172px;
+  height: 51px;
+  margin: 0;
+}
+
+.gallery-section .divider .line {
+  width: 849px;
+  height: 0px;
+  background-image: url("/Images/line.png");
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #ffba41 15.79%, #0b0b0b 100%);
+}
+
+.gallery-section .gallery {
+  width: 1064px;
+  height: 547px;
+  top: 2096px;
+  left: 188px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-section .gallery-item {
+  width: 526px;
+  height: 547px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-section .gallery-item .polygon19 {
+  width: 209.21px;
+  height: 210.21px;
+  /* border: 1.78px solid; */
+  position: absolute;
+}
+
+.gallery-section .gallery-item .polygon18 {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  margin-top: -17px;
+  margin-left: -16px;
+  padding: 29.21px 29.67px 28.8px 30.14px;
+}
+
+.gallery-section .gallery-item .polygon18 img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-section .arrows {
+  width: 1064px;
+  height: 36px;
+  top: 677px;
+  left: 188px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-section .arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.beauty-section {
+  width: 1440px;
+  height: 450px;
+  padding: 0px 0px 50px 0px;
+}
+
+.beauty-section .divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 71px;
+}
+
+.beauty-section .divider .title {
+  width: Fixed (400px) px;
+  height: Fixed (132px) px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.beauty-section .divider .title .bee-image {
+  width: 106px;
+  height: 88.93px;
+}
+
+.beauty-section .divider .title h2 {
+  font-family: Lora;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 51.2px;
+  text-align: left;
+  color: #fff9c0;
+}
+
+.beauty-section .divider .line {
+  width: 849px;
+  height: 0px;
+  background-image: url("/Images/line.png");
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #ffba41 15.79%, #0b0b0b 100%);
+}
+
+.beauty-section .beautyframe {
+  /* width: 1237px;
+  height: 570px;
+  top: 2096px;
+  left: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  display: flex;
+  width: 847px;
+  height: 468px;
+}
+
+.beauty-section .beauty-description {
+  width: 480px;
+  height: 228px;
+  margin-top: 17px;
+  margin-left: 85px;
+}
+
+.beauty-section .beauty-description p {
+  /* font-family: Lora;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: justify;
+  margin: 0; */
+  width: 480px;
+  height: 210px;
+  top: 176px;
+  left: 85px;
+  color: #fff9c0;
+  font-size: 18px;
+  line-height: 36px;
+}
+.beauty-signup {
+  display: flex;
+  gap: 29px;
+}
+
+.beauty-signup div {
+  display: flex;
+  align-items: center;
+  background-image: url("/Images/Polygon7.svg");
+  width: 121px;
+  height: 64px;
+  gap: 10px;
+}
+
+.beauty-signup img {
+  width: 24px;
+  height: 24px;
+}
+
+.beauty-pic {
+  width: 603.57px;
+  height: 268.83px;
+  position: absolute;
+  margin-bottom: 176px;
+  margin-right: 85px;
+}
+
+.beauty-pic img {
+  width: 478px;
+    height: 595px;
+    position: relative;
+    bottom: 170px;
+    left: 651px;
+}
+.reviews-section {
+  width: 1440px;
+  height: auto;
+  padding: 0px 0px 0px 62px;
+  gap: 71px;
+}
+
+.reviews-section .divider {
+  width: 1440px;
+  height: auto;
+  padding: 0px 0px 0px 62px;
+  gap: 71px;
+}
+
+.reviews-section .divider .title {
+  width: 400px;
+  height: 132px;
+  gap: 0px;
+}
+
+.reviews-section .divider .title .bee-image {
+  width: 106px;
+  height: 88.93px;
+}
+
+.reviews-section .divider .title h2 {
+  width: 172px;
+  height: 51px;
+  margin: 0;
+}
+
+.reviews-section .divider .line {
+  width: 849px;
+  height: 0px;
+  background-image: url("/Images/line.png");
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #ffba41 15.79%, #0b0b0b 100%);
+}
+
+.reviews-section .reviews {
+  width: 1100px;
+  height: auto;
+  top: 2096px;
+  left: 188px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reviews-section .review-card {
+  width: 526px;
+  height: 200px;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+.reviews-section .review-card .review-text {
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: justify;
+  margin: 0;
+}
+
+.reviews-section .review-card .reviewer {
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: right;
+  margin: 0;
 }

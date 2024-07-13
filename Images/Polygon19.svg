@@ -1,0 +1,20 @@
+<svg width="664" height="750" viewBox="0 0 664 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.64 13.4282C347.335 0.365243 319.727 0.30831 297.368 13.2792L39.547 162.844C17.4169 175.682 3.79556 199.332 3.79556 224.916V524.803C3.79556 550.388 17.4168 574.037 39.547 586.875L297.368 736.44C319.727 749.411 347.335 749.354 369.64 736.291L624.709 586.914C646.694 574.038 660.204 550.47 660.204 524.991V224.728C660.204 199.249 646.694 175.681 624.709 162.805L369.64 13.4282Z" fill="#F2BB5A" fill-opacity="0.1"/>
+<path d="M369.64 13.4282C347.335 0.365243 319.727 0.30831 297.368 13.2792L39.547 162.844C17.4169 175.682 3.79556 199.332 3.79556 224.916V524.803C3.79556 550.388 17.4168 574.037 39.547 586.875L297.368 736.44C319.727 749.411 347.335 749.354 369.64 736.291L624.709 586.914C646.694 574.038 660.204 550.47 660.204 524.991V224.728C660.204 199.249 646.694 175.681 624.709 162.805L369.64 13.4282Z" stroke="url(#paint0_radial_0_655)" stroke-width="6.40888"/>
+<path d="M369.64 13.4282C347.335 0.365243 319.727 0.30831 297.368 13.2792L39.547 162.844C17.4169 175.682 3.79556 199.332 3.79556 224.916V524.803C3.79556 550.388 17.4168 574.037 39.547 586.875L297.368 736.44C319.727 749.411 347.335 749.354 369.64 736.291L624.709 586.914C646.694 574.038 660.204 550.47 660.204 524.991V224.728C660.204 199.249 646.694 175.681 624.709 162.805L369.64 13.4282Z" stroke="url(#paint1_radial_0_655)" stroke-width="6.40888"/>
+<defs>
+<radialGradient id="paint0_radial_0_655" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-33.461 9.47057) rotate(55.7174) scale(470.066 624.961)">
+<stop stop-color="#FFE195"/>
+<stop offset="0.177083" stop-color="#F2BB5A" stop-opacity="0.876812"/>
+<stop offset="0.359375" stop-color="#BF7A00" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#BF7A00" stop-opacity="0"/>
+<stop offset="1" stop-color="#0F1218" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_0_655" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1818.03 545.885) rotate(-149.306) scale(436.163 434.086)">
+<stop stop-color="#FFE195"/>
+<stop offset="0.166667" stop-color="#F2BB5A" stop-opacity="0.8"/>
+<stop offset="0.328125" stop-color="#BF7A00" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#0B0B0B" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
