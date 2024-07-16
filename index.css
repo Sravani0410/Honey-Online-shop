@@ -23,6 +23,7 @@ body {
 }
 
 .menu {
+  width:100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -402,6 +403,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: #FFBA4112 0px 5px 15px;
+  /* background: #FFBA4112; */
 }
 
 .shop-section .shopping-card img {
@@ -932,7 +935,6 @@ margin-left:600px
   width: 100%;
   background-color: #333;
   color: white;
-  padding: 60px 0;
 }
 
 .footer-content {
@@ -945,7 +947,7 @@ margin-left:600px
 }
 
 .footer-logo img {
-  width: 100%;
+  width: 25%;
 }
 
 .footer-things {
@@ -980,7 +982,8 @@ margin-left:600px
 
 .footer-copyright {
   text-align: center;
-  margin-top: 40px;
+  margin-top: -20px;
+  margin-left: 450px;
   font-size: 14px;
 }
 
