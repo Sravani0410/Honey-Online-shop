@@ -576,12 +576,12 @@ gap: 0px;
   width: 1064px;
   height: 36px;
   top: 677px;
-  left: 188px;
+  margin-left: 378px;
   display: flex;
   justify-content: space-between;
 }
 
-.gallery-section .arrow {
+/* .gallery-section .arrow {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -589,7 +589,7 @@ gap: 0px;
   background-color: #fff;
   color: #000;
   cursor: pointer;
-}
+} */
 
 .beauty-section {
   width: 1440px;
