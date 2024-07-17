@@ -11,7 +11,7 @@ body {
   height: auto;
   margin: 0 auto;
   background: #0b0b0b;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* Hero Section */
@@ -1380,29 +1380,4 @@ margin-top:70px;
     color: white;
   }
 }
-@media (min-width: 992px) and (max-width: 1024px)  {
-  .hero .menu {
-    flex-direction: column;
-  }
 
-  .hero .navigation {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .about-us-main {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .products {
-    flex-direction: column;
-  }
-
-  .shopframe {
-    flex-direction: column;
-  }
-  .footer{
-    width:100%
-  }
-}
