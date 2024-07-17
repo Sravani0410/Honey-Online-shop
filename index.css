@@ -205,23 +205,29 @@ body {
 }
 
 .text-about {
-  width: 480px;
+  width: 620px;
   height: 228px;
-  margin-top: 17px;
-  margin-left: 85px;
+  margin-top: -40px;
+  margin-left: 145px;
 }
 
 .text-about p {
-  width: 480px;
+  width: 500px;
   height: 150px;
   top: 176px;
   left: 85px;
   color: #fff9c0;
   font-size: 18px;
   line-height: 36px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   /* text-align: justify; */
 }
-
+.text-about p.expanded {
+  height: auto;
+  white-space: normal;
+}
 .about-signup {
   display: flex;
   gap: 29px;
@@ -758,7 +764,16 @@ gap: 0px;
   color: #fff9c0;
   font-size: 18px;
   line-height: 36px;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
 }
+
+.beauty-section .beauty-description p.expanded{
+  height: auto;
+  white-space: normal;
+}
+
 .beauty-signup {
   display: flex;
   gap: 29px;
