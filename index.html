@@ -13,11 +13,18 @@
         <div class="menu">
           <div class="logo">Golden Hive Honey</div>
           <nav class="navigation">
-            <a href="#">Home</a>
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Gallery</a></li>
+            </ul>
+            <!-- <a href="#" class="active">Home</a>
             <a href="#">About Us</a>
             <a href="#">Products</a>
             <a href="#">Contact</a>
-            <a href="#">Gallery</a>
+            <a href="#">Gallery</a> -->
           </nav>
           <div class="signup">
             <div class="signin">
@@ -89,6 +96,9 @@
               />
               <div class="frame24">
                 <img src="Images/Polygon6-2.svg" alt="Product Image" />
+                <div class="layer">
+                  <h3>Jar</h3>
+                </div>
               </div>
             </div>
             <div class="product-frame">
@@ -99,6 +109,9 @@
               />
               <div class="frame24">
                 <img src="Images/Frame20.svg" alt="Product Image" />
+                <div class="layer">
+                  <h3>Product Name1</h3>
+                </div>
               </div>
             </div>
             <div class="product-frame">
@@ -109,6 +122,9 @@
               />
               <div class="frame24">
                 <img src="Images/Frame-21.svg" alt="Product Image" />
+                <div class="layer">
+                  <h3>Product Name2</h3>
+                </div>
               </div>
             </div>
             <div class="product-frame">
@@ -119,6 +135,9 @@
               />
               <div class="frame24">
                 <img src="Images/Frame-24.svg" alt="Product Image" />
+                <div class="layer">
+                  <h3>Product Name2</h3>
+                </div>
               </div>
             </div>
           </div>
@@ -130,7 +149,11 @@
                 class="polygon6"
               />
               <div class="frame24">
-                <img src="Images/BEESWAX.svg" alt="Product Image" />
+                <img src="Images/Frame-24.svg" alt="Product Image" />
+                <div class="layer">
+                  <img src="Images/BEESWAX.svg" alt="Product Image" />
+                  <!-- <h3>Product Name2</h3> -->
+                </div>
               </div>
             </div>
             <div class="product-frame">
@@ -141,6 +164,9 @@
               />
               <div class="frame24">
                 <img src="Images/Frame-22.svg" alt="Product Image" />
+                <div class="layer">
+                  <h3>Product </h3>
+                </div>
               </div>
             </div>
             <div class="product-frame">
@@ -151,6 +177,9 @@
               />
               <div class="frame24">
                 <img src="Images/Frame-23.svg" alt="Product Image" />
+                <div class="layer">
+                  <h3>Settings</h3>
+                </div>
               </div>
             </div>
           </div>
@@ -223,8 +252,8 @@
         <div class="gallery">
           <!-- <img src="/Images/gallery-2.svg" /> -->
           <div class="gallery-item-frame">
-            <img src="Images/1.svg"/>
-            <img src="Images/2.svg"/>
+            <img src="Images/1.svg" />
+            <img src="Images/2.svg" />
             <!-- <div class="gallery-item">
               <img
                 src="Images/Polygon19.svg"
@@ -247,9 +276,9 @@
             </div> -->
           </div>
           <div class="gallery-item-frame2">
-            <img src="Images/3.svg"/>
-            <img src="Images/4.svg"/>
-            <img src="Images/5.svg"/>
+            <img src="Images/3.svg" />
+            <img src="Images/4.svg" />
+            <img src="Images/5.svg" />
             <!-- <div class="gallery-item">
               <img
                 src="Images/Polygon19.svg"
@@ -282,7 +311,7 @@
             </div> -->
           </div>
           <div class="arrows">
-            <img src="Images/arrow.svg"/>
+            <img src="Images/arrow.svg" />
           </div>
         </div>
         <!-- <div class="arrows">
@@ -544,34 +573,45 @@
           />
         </div>
       </section>
-    
+
       <footer class="footer">
         <div class="footer-content">
-            <div>
-              <div class="footer-things">
-                <img src="/Images/footer-things.svg"/>
-              </div>
-              <div class="footer-line">
-                <img src="/Images/socialmedia.svg"/>
-              </div>
-              <div class="footer-logo">
-                <img src="Images/logo.svg" alt="Logo" />
-              </div>
-              <div class="footer-copyright">
-                <img src="/Images/copyright.svg"/>
-              </div>
+          <div>
+            <div class="footer-things">
+              <img src="/Images/footer-things.svg" />
             </div>
-            <div class="footer-pic">
-              <img src="Images/footerpic.svg" alt="Footer Pic" />
+            <div class="footer-line">
+              <img src="/Images/socialmedia.svg" />
             </div>
-            
+            <div class="footer-logo">
+              <img src="Images/logo.svg" alt="Logo" />
+            </div>
+            <div class="footer-copyright">
+              <img src="/Images/copyright.svg" />
+            </div>
+          </div>
+          <div class="footer-pic">
+            <img src="Images/footerpic.svg" alt="Footer Pic" />
+          </div>
         </div>
-        
       </footer>
-    
+
       <!-- <footer>
         <img src="Images/Footer.svg" />
       </footer>  -->
     </div>
   </body>
 </html>
+<!-- <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.navigation a');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent default link behavior for demonstration purposes
+        navLinks.forEach(nav => nav.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+  });
+</script> -->

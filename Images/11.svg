@@ -1,0 +1,20 @@
+<svg width="194" height="254" viewBox="0 0 194 254" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M74.345 5.83176C66.8812 1.46068 57.6433 1.44164 50.1615 5.78191L-36.1093 55.8287C-43.5144 60.1245 -48.0723 68.0379 -48.0723 76.5988V176.946C-48.0723 185.507 -43.5144 193.42 -36.1093 197.716L50.1615 247.763C57.6432 252.103 66.8812 252.084 74.345 247.713L159.695 197.729C167.052 193.421 171.572 185.534 171.572 177.009V76.5359C171.572 68.0103 167.052 60.124 159.695 55.8156L74.345 5.83176Z" fill="#F2BB5A" fill-opacity="0.1"/>
+<path d="M74.345 5.83176C66.8812 1.46068 57.6433 1.44164 50.1615 5.78191L-36.1093 55.8287C-43.5144 60.1245 -48.0723 68.0379 -48.0723 76.5988V176.946C-48.0723 185.507 -43.5144 193.42 -36.1093 197.716L50.1615 247.763C57.6432 252.103 66.8812 252.084 74.345 247.713L159.695 197.729C167.052 193.421 171.572 185.534 171.572 177.009V76.5359C171.572 68.0103 167.052 60.124 159.695 55.8156L74.345 5.83176Z" stroke="url(#paint0_radial_0_532)" stroke-width="2.14451"/>
+<path d="M74.345 5.83176C66.8812 1.46068 57.6433 1.44164 50.1615 5.78191L-36.1093 55.8287C-43.5144 60.1245 -48.0723 68.0379 -48.0723 76.5988V176.946C-48.0723 185.507 -43.5144 193.42 -36.1093 197.716L50.1615 247.763C57.6432 252.103 66.8812 252.084 74.345 247.713L159.695 197.729C167.052 193.421 171.572 185.534 171.572 177.009V76.5359C171.572 68.0103 167.052 60.124 159.695 55.8156L74.345 5.83176Z" stroke="url(#paint1_radial_0_532)" stroke-width="2.14451"/>
+<defs>
+<radialGradient id="paint0_radial_0_532" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-60.5389 4.50746) rotate(55.7174) scale(157.291 209.122)">
+<stop stop-color="#FFE195"/>
+<stop offset="0.177083" stop-color="#F2BB5A" stop-opacity="0.876812"/>
+<stop offset="0.359375" stop-color="#BF7A00" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#BF7A00" stop-opacity="0"/>
+<stop offset="1" stop-color="#0F1218" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_0_532" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(559 184) rotate(-149.306) scale(145.947 145.252)">
+<stop stop-color="#FFE195"/>
+<stop offset="0.166667" stop-color="#F2BB5A" stop-opacity="0.8"/>
+<stop offset="0.328125" stop-color="#BF7A00" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#0B0B0B" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

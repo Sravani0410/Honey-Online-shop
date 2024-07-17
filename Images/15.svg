@@ -1,0 +1,20 @@
+<svg width="194" height="254" viewBox="0 0 194 254" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M227.345 5.83176C219.881 1.46068 210.643 1.44164 203.161 5.78191L116.891 55.8287C109.486 60.1245 104.928 68.0379 104.928 76.5988V176.946C104.928 185.507 109.486 193.42 116.891 197.716L203.161 247.763C210.643 252.103 219.881 252.084 227.345 247.713L312.695 197.729C320.052 193.421 324.572 185.534 324.572 177.009V76.5359C324.572 68.0103 320.052 60.124 312.695 55.8156L227.345 5.83176Z" fill="#F2BB5A" fill-opacity="0.1"/>
+<path d="M227.345 5.83176C219.881 1.46068 210.643 1.44164 203.161 5.78191L116.891 55.8287C109.486 60.1245 104.928 68.0379 104.928 76.5988V176.946C104.928 185.507 109.486 193.42 116.891 197.716L203.161 247.763C210.643 252.103 219.881 252.084 227.345 247.713L312.695 197.729C320.052 193.421 324.572 185.534 324.572 177.009V76.5359C324.572 68.0103 320.052 60.124 312.695 55.8156L227.345 5.83176Z" stroke="url(#paint0_radial_0_530)" stroke-width="2.14451"/>
+<path d="M227.345 5.83176C219.881 1.46068 210.643 1.44164 203.161 5.78191L116.891 55.8287C109.486 60.1245 104.928 68.0379 104.928 76.5988V176.946C104.928 185.507 109.486 193.42 116.891 197.716L203.161 247.763C210.643 252.103 219.881 252.084 227.345 247.713L312.695 197.729C320.052 193.421 324.572 185.534 324.572 177.009V76.5359C324.572 68.0103 320.052 60.124 312.695 55.8156L227.345 5.83176Z" stroke="url(#paint1_radial_0_530)" stroke-width="2.14451"/>
+<defs>
+<radialGradient id="paint0_radial_0_530" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(92.4611 4.50746) rotate(55.7174) scale(157.291 209.122)">
+<stop stop-color="#FFE195"/>
+<stop offset="0.177083" stop-color="#F2BB5A" stop-opacity="0.876812"/>
+<stop offset="0.359375" stop-color="#BF7A00" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#BF7A00" stop-opacity="0"/>
+<stop offset="1" stop-color="#0F1218" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_0_530" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(712 184) rotate(-149.306) scale(145.947 145.252)">
+<stop stop-color="#FFE195"/>
+<stop offset="0.166667" stop-color="#F2BB5A" stop-opacity="0.8"/>
+<stop offset="0.328125" stop-color="#BF7A00" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#0B0B0B" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
