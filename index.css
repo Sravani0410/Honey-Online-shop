@@ -11,7 +11,7 @@ body {
   height: auto;
   margin: 0 auto;
   background: #0b0b0b;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Hero Section */
@@ -1076,7 +1076,7 @@ color: #FFF9C0;
   left: 73px;
   gap: 18px;  
 }
-.subscribe-form .email-sub{
+.subscribe-form{
 margin-top: 34px;
 padding: 14px 24px 14px 12px;
 gap: 12px;
@@ -1084,6 +1084,13 @@ border-radius: 12px 0px 0px 0px;
 border: 1px 0px 0px 0px;
 margin-left:400px
 }
+
+.subscribe-button{
+  padding: 14px 24px 14px 12px;
+  border-radius: 12px 0px 0px 0px;
+  margin-left:600px
+  }
+
 .subscribe-signup {
   display: flex;
   gap: 29px;
@@ -1102,10 +1109,20 @@ margin-left:400px
   width: 24px;
   height: 24px;
 }
-.subscribe-button{
+
+.subscribe-input{
+width: 300px;
+height: 15px;
+top: 34px;
+margin-left:100px;
 padding: 14px 24px 14px 12px;
-border-radius: 12px 0px 0px 0px;
-margin-left:600px
+gap: 12px;
+color:white;
+border-radius: 12px;
+border: 1px 0px 0px 0px;
+background: #221D13;
+border: 1px solid;
+/* border-image-source: radial-gradient(51.16% 71.74% at 1.33% 1.78%, #FFE195 0%, rgba(242, 187, 90, 0.876812) 17.71%, rgba(191, 122, 0, 0.75) 35.94%, rgba(191, 122, 0, 0) 100%, rgba(15, 18, 24, 0) 100%) */
 }
 
 /* Footer Section */
@@ -1190,5 +1207,8 @@ margin-top:70px;
 
   .shopframe {
     flex-direction: column;
+  }
+  .footer{
+    width:100%
   }
 }

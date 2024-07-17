@@ -581,17 +581,29 @@
           <img src="Images/title.svg" alt="Bee Image" class="bee-image" />
         </div>
         <div class="subscribe-form">
-          <img
+          <!-- <img
             class="email-sub"
             src="Images/email-sub.svg"
             alt="Subscribe Image"
+          /> -->
+          <input
+            type="email"
+            placeholder="Your Email Address"
+            class="subscribe-input"
+            required
           />
-          <img
+          <!-- <img
             class="subscribe-button"
             src="Images/subscribe-button.svg"
             alt="Subscribe Image"
-          />
+          /> -->
         </div>
+        <img
+          class="subscribe-button"
+          src="Images/subscribe-button.svg"
+          alt="Subscribe Image"
+        />
+        <!-- <button type="submit">Subscribe</button> -->
       </section>
 
       <footer class="footer">
@@ -622,16 +634,4 @@
     </div>
   </body>
 </html>
-<script src="index.js">
-  // document.addEventListener('DOMContentLoaded', () => {
-  //   const navLinks = document.querySelectorAll('.navigation a');
-
-  //   navLinks.forEach(link => {
-  //     link.addEventListener('click', (event) => {
-  //       event.preventDefault(); // Prevent default link behavior for demonstration purposes
-  //       navLinks.forEach(nav => nav.classList.remove('active'));
-  //       link.classList.add('active');
-  //     });
-  //   });
-  // });
-</script>
+<script src="index.js"></script>
