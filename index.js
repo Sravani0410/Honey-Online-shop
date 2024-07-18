@@ -32,3 +32,13 @@ document.addEventListener("DOMContentLoaded", function() {
 //     });
 //   });
   
+var sidemenu=document.getElementById("side-menu");
+
+function openmenu(){
+  console.log("clickedopen");
+    sidemenu.style.left="0";
+}
+function closemenu(){
+  console.log("clickedclose");
+    sidemenu.style.left="-350px";
+}
