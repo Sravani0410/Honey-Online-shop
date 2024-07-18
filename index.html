@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Golden Hive Honey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -13,29 +14,35 @@
         <div class="menu">
           <div class="logo">Golden Hive Honey</div>
           <nav class="navigation">
-            <ul>
+            <ul id="side-menu">
               <li><a href="#" class="active">Home</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Products</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Gallery</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
             <!-- <a href="#" class="active">Home</a>
             <a href="#">About Us</a>
             <a href="#">Products</a>
             <a href="#">Contact</a>
             <a href="#">Gallery</a> -->
+            
           </nav>
           <div class="signup">
             <div class="signin">
-              <img src="/Images/Polygon7.svg" alt="Sign In Icon" />
-              <span>Sign In</span>
+              <a href="#">Sign In</a>
+              <!-- <img src="/Images/Polygon7.svg" alt="Sign In Icon" /> -->
+              <!-- <span>Sign In</span> -->
             </div>
             <div class="register">
-              <img src="/Images/Polygon7.svg" alt="Sign Up Icon" />
-              <span>Sign Up</span>
+              <a href="#">Sign Up</a>
+              <!-- <img src="/Images/Polygon7.svg" alt="Sign Up Icon" /> -->
+              <!-- <span>Sign Up</span> -->
             </div>
           </div>
+          
         </div>
         <h1 class="hero-title">Golden Hive Honey</h1>
         <div class="hero-pic">

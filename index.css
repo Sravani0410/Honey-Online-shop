@@ -11,7 +11,7 @@ body {
   height: auto;
   margin: 0 auto;
   background: #0b0b0b;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Hero Section */
@@ -92,6 +92,9 @@ body {
   width: 100%;
 }
 
+nav .fas{
+  display:none
+}
 .signup {
   display: flex;
   gap: 29px;
@@ -105,12 +108,33 @@ body {
   height: 64px;
   gap: 10px;
 }
-
+.signup div a{
+  left:30px;
+  align-items: center;
+  color:#fff;
+  text-decoration: none;
+  position: relative;
+}
+.signup div a::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #ffc453;
+  transition: width 0.5s;
+}
+.signup div a:hover::after{
+  width:100%
+}
 .signup img {
   width: 24px;
   height: 24px;
 }
-
+/* .signup div button:hover{
+  background-color: #ffa500;
+} */
 .hero-title {
   text-align: center;
   font-size: 64px;
@@ -1300,10 +1324,7 @@ margin-top:70px;
     flex-direction: column;
   }
 
-  .hero .navigation {
-    flex-direction: column; 
-    gap: 10px;
-  }
+ 
   .hero-title{
     width:100%;
     text-align: center;
@@ -1327,7 +1348,46 @@ margin-top:70px;
   .hero-pic img {
     align-items: center;
   }
-
+  .hero .menu {
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-right:40%;
+  }
+  /* .hero .logo{
+    display: none;
+  }
+  .hero .navigation {
+    background-image: url("/Images.png");
+    gap: 0px;
+    display:flex;
+    
+  }
+   nav .fas{
+    display: block;
+    font-size: 25px;
+    margin-right:20%;
+   }
+   .navigation ul{
+    background:rgb(158, 152, 152);
+    position:fixed;
+    top:0;
+    left:-350px;
+    width:200px;
+    height: 200vh;
+    padding-top:50px;
+    color:white;
+    z-index: 2;
+   }
+   .navigation ul li{
+     display:block;
+     margin:25px;
+   }
+   .navigation ul .fas{
+    position: absolute;
+    top:25px;
+    right:25px;
+    cursor:pointer
+   } */
   .scroll-indicator {
     position: absolute;
     bottom: -30px;
